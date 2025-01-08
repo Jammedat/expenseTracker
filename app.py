@@ -17,7 +17,7 @@ import os
 app = Flask(__name__)
  
  
-app.secret_key = os.getenv('FLASK_SECRET_KEY') #appkosecret
+app.secret_key = 'appkosecretkey' #appkosecret
  
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
